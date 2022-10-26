@@ -1,0 +1,17 @@
+application/controllers/translator.php
+application/views/blackline
+/application/logs/*
+sftp-config.json
+assets/blueline/css/user.css
+/files/temp/*
+/node_modules
+/files/media/*
+sublime-gulp.log
+/files/updates/*
+.sublime-gulp.cache
+/dompdf/lib/php-font-lib
+/files/backup/*
+/docker
+/.vscode
+application/libraries/VpxMigration.php
+/dompdf/lib/fonts/log.htm

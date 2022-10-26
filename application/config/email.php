@@ -1,0 +1,22 @@
+<?php if ( ! defined("BASEPATH")) exit("No direct script access allowed ");
+    $config["useragent"]        = "PHPMailer";      
+    $config["protocol"]         = "smtp";
+    $config["mailpath"]         = "/usr/sbin/sendmail";
+    $config["smtp_host"]        = "smtp.mailtrap.io";
+    $config["smtp_user"]        = "dead4f6e6a4382";
+    $config["smtp_pass"]        = "7733e07a3aac55";
+    $config["smtp_port"]        = "2525";
+    $config["smtp_timeout"]     = "5";      
+    $config["smtp_crypto"]      = "tls";    
+    $config["smtp_debug"]       = "0";      
+    $config["wordwrap"]         = true;
+    $config["wrapchars"]        = 76;
+    $config["mailtype"]         = "html";          
+    $config["charset"]          = "utf-8";
+    $config["validate"]         = true;
+    $config["priority"]         = 3;                
+    $config["crlf"]             = "\r\n";                     
+    $config["newline"]          = "\r\n";                    
+    $config["bcc_batch_mode"]   = false;
+    $config["bcc_batch_size"]   = 200;
+                
